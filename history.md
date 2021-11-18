@@ -4,4 +4,5 @@
   - AugmentationはResize、HueSaturationValue、RandomBrightnessContrast、Normalize。これをベースとして考える。
   - これ以降notebookはこの命名 PetFinder udon train? ・ PetFinder udon inference?
 2.
-  - model_name = 
+  - model_name = 'swin_base_patch4_window7_224'
+  - 1. と同じ
