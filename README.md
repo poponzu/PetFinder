@@ -9,3 +9,6 @@
   - 以降、1個目とモデルと値同じ
   - モデルはlarge > base > tinyで良くなる
   - 次はAugmentationをして改善する　17.台を出したい。
+3. **score  18.15736**
+  - albumentations.RandomResizedCrop
+  - albumentations.VerticalFlip(p=0.5), albumentations.HorizontalFlip(p=0.5)を追加した。
