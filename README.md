@@ -12,3 +12,5 @@
 3. **score  18.15736**
   - albumentations.RandomResizedCrop
   - albumentations.VerticalFlip(p=0.5), albumentations.HorizontalFlip(p=0.5)を追加した。
+4. **score  18.16859**
+  - albumentations.augmentations.geometric.transforms.ShiftScaleRotate(p=0.5)を追加した。
