@@ -14,6 +14,6 @@
   - albumentations.VerticalFlip(p=0.5), albumentations.HorizontalFlip(p=0.5)を追加した。
 4. **score  18.16859**
   - albumentations.augmentations.geometric.transforms.ShiftScaleRotate(p=0.5)を追加した。
-5. **score  **
+5. **CVscore 17.958034841337227 PBscore 18.13956**
   - mixupのlamdaをベータ関数のものから0.2に変更した。
   - 条件はモデル3と同じ(モデル4のアフィン変換を不採用)
